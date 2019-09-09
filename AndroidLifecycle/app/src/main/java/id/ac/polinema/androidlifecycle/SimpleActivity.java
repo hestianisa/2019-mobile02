@@ -22,6 +22,6 @@ public class SimpleActivity extends AppCompatActivity {
 
     public void handleSubmit(View view) {
         String nama = nameInput.getText().toString();
-        outputText.setText("Hello" + nama);
+        outputText.setText("Hello " + nama);
     }
 }
